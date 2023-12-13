@@ -13,7 +13,7 @@ Ce projet m'a permis d'apprendre à utiliser l'API Wikipédia pour effectuer des
 
 ## Démonstration
 
-Lien vers le projet :
+Lien vers le projet : https://aperbet56.github.io/wikipedia_app/
 
 ## Développez avec
 
