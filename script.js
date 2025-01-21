@@ -7,7 +7,7 @@ const resultsContainer = document.querySelector(".results");
 // Création de la variables data qui va stocker les données renvoyées par l'API
 let data = [];
 
-// // Déclaration de la fonction fetchWikipedia qui va permettre d'obtenir les données d'un utilisateur
+// Déclaration de la fonction fetchWikipedia qui va permettre d'obtenir les données d'un utilisateur
 const fetchWikipedia = async (searchTerm) => {
   await fetch(
     `https://fr.wikipedia.org/w/api.php?action=query&list=search&prop=info&inprop=url&utf8=&format=json&origin=*&srlimit=500&srsearch=${encodeURIComponent(
@@ -58,6 +58,7 @@ form.addEventListener("submit", (e) => {
     // Appel de la fonction fetchWikipedia
     fetchWikipedia(searchTerm);
   } else {
+    // Affichage d'un message d'erreur
     alert("Veuillez saisir votre recherche !");
   }
 });
