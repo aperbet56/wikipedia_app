@@ -1,4 +1,4 @@
-## WIKIPEDIA SEARCH APP
+## 🔍 WIKIPEDIA SEARCH APP 🔍
 
 ## Le challenge
 
@@ -15,10 +15,10 @@ Ce projet m'a permis d'apprendre à utiliser l'API Wikipédia pour effectuer des
 
 Lien vers le projet : https://aperbet56.github.io/wikipedia_app/
 
-## Développez avec
+## Projet développé avec
 
 - Utilisation des balises sémantiques HTML5
-- CSS
+- CSS3
 - Importation de la police Raleway
 - Flexbox
 - Animations CSS
