@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,600;1,700&display=swap');
+/**** Importation de la police "Alan Sans" ****/
+
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=swap');
 
 /**** Reset ****/
 
@@ -6,8 +8,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+input,
+button {
     border: none;
     outline: none;
+}
+
+a {
     text-decoration: none;
 }
 
@@ -19,8 +28,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #eeeeee;
-    font-family: "Raleway", sans-serif;
+    background-color: #fffffe;
+    font-family: "Alan Sans", sans-serif;
 }
 
 header,
@@ -29,7 +38,7 @@ footer {
     justify-content: center;
     align-items: center;
     padding: 15px;
-    color: #888888;
+    color: #181818;
 }
 
 header h1 {
@@ -73,21 +82,22 @@ header h1 {
     display: block;
     appearance: none;
     -webkit-appearance: none;
+    background-color: #2e2e2e;
+    color: #fffffe;
     padding: 15px;
     border-radius: 12px;
     font-size: 16px;
     width: 100%;
-    transition: all 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
 }
 
 .search__form:focus-within {
-    box-shadow: 0 7px 29px 0 rgba(100, 100, 111, 0.2);
     transform: translateY(-3px);
 }
 
 .result__counter {
     font-size: 18px;
-    color: #313131;
+    color: #181818;
     font-weight: bold;
 }
 
@@ -99,35 +109,38 @@ header h1 {
     width: 100%;
     padding: 15px;
     margin: 20px 0;
-    background-color: #ffffff;
+    background-color: #2e2e2e;
     border-radius: 14px;
-    transition: all 0.3s ease-in-out;
+    will-change: transform;
+    transition: box-shadow 0.3s ease-in-out,
+        transform 0.3s ease-in-out;
 }
 
 .result:hover {
-    box-shadow: 0 7px 29px 0 rgba(100, 100, 111, 0.2);
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.69s);
     transform: scale(1.02);
 }
 
 .result h2 {
-    color: #5c6bc0;
+    color: #fffffe;
     text-align: center;
     font-size: 28px;
     margin-bottom: 15px;
 }
 
 .result p {
-    color: #313131;
+    color: #ddd6d6;
     font-size: 18px;
     margin-bottom: 15px;
+    line-height: 1.4;
 }
 
 .result a {
     display: inline-block;
     padding: 12px;
     width: 100%;
-    background-color: #dd4141;
-    color: #ffffff;
+    background-color: #50c4cf;
+    color: #fffffe;
     text-align: center;
     font-weight: 700;
     border-radius: 12px;
@@ -135,7 +148,7 @@ header h1 {
 }
 
 .result a:hover {
-    background-color: #fd0808;
+    background-color: #56d0db;
 }
 
 footer span {
