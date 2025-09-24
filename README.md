@@ -1,8 +1,10 @@
 ## 🔍 WIKIPEDIA SEARCH APP 🔍
 
+![Design preview for the project](./img/preview.png)
+
 ## Le challenge
 
-Mon objectif a été de coder une application de recherche Wikipédia en HTML, CSS et JavaScript. Pour se faire :
+Mon objectif a été de coder une application de recherche Wikipédia en HTML5, CSS3 et JavaScript. Pour se faire :
 
 - L'internaute doit saisir sa recherche dans le champ de recherche.
 - Ensuite, il doit soumettre le formulaire et les résultats vont apparaître.
@@ -19,7 +21,7 @@ Lien vers le projet : https://aperbet56.github.io/wikipedia_app/
 
 - Utilisation des balises sémantiques HTML5
 - CSS3
-- Importation de la police Raleway
+- Importation de la police "Alan Sans"
 - Flexbox
 - Animations CSS
 - Page web responsive
