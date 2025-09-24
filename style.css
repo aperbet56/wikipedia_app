@@ -151,7 +151,7 @@ header h1 {
     background-color: #56d0db;
 }
 
-footer span {
+.footer__text {
     text-align: center;
     font-size: 18px;
     font-weight: bold;
