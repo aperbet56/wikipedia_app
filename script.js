@@ -1,4 +1,4 @@
-// Récupération des différents éléments
+// Récupération des différents éléments HTML5
 const form = document.querySelector(".search__form");
 const input = form.querySelector('input[type="search"]');
 const resultsCounter = document.querySelector(".result__counter");
